@@ -1,19 +1,21 @@
 #MasterContainer {
   width: 100vw;
-  height: 20rem;
-  background-color: red;
+  background-color: rgb(32, 32, 32);
   font-size: 11px;
+  color: skyblue ;
+  font-family: 'Michroma', sans-serif;
 }
 #NavBarcontainer {
-  background-color: rebeccapurple;
+  background-color: rgb(16, 16, 16);
   width: 30%;
-  height: 100vw;
+  height: 100%;
   display: flex;
   flex-direction: column;
   position: fixed;
+  justify-content: center;
+  
 }
 #FotoContainer {
-  background-color: green;
   width: 100%;
   height: 30%;
   display: flex;
@@ -25,37 +27,111 @@
 }
 #NavBar {
   width: 100%;
-  background-color: gold;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
-.NavBarItem {
+.NavBarItemContainer{
   margin: 5px;
 }
+.NavBarItem {
+  text-decoration: none;
+  color: rgb(243, 219, 0);
+}
+.NavBarItem:hover{
+  color: rgb(255, 245, 158);
+}
 .InfoContainer {
-  background-color: aqua;
   width: 70%;
-  height: 15rem;
   display: flex;
-  margin-left: 97px;
+  margin-left: 120px;
   justify-content: center;
   flex-direction: column;
 }
 .Titulo{
   font-size: 15px;
   margin-bottom: 10px;
-}
-#Button{
-  margin: 10px;
-  font-size: 11px;
-  text-decoration: none;  
-  background-color: red;
-  width: 100px;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(243, 219, 0);
 }
 .Barra{
-  background-color: yellow;
   width: 100vw;
+  background-color: grey;
+  height: 10px;
+  border-radius: 20px;
   
+}
+@media screen and (min-width:400px) { 
+    .InfoContainer{
+      margin-left: 150px;
+    }
+}
+@media screen and (min-width:500px) { 
+  .InfoContainer{
+    margin-left: 200px;
+  }
+  #NavBarcontainer{
+    width: 25%;
+  }
+}
+@media screen and (min-width:768px) { 
+  #MasterContainer{
+    font-size: 15px;
+  }
+  #NavBarcontainer{
+    width: 15%;
+  }
+}
+@media screen and (min-width:1024px) { 
+  .InfoContainer{
+    height: 20rem;
+    align-items: center;
+  }
+  .Titulo{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width:1200px){
+  #MasterContainer{
+    font-size: 20px;
+  }
+  .InfoContainer{
+    height: 60rem;
+    font-size: 25px;
+    margin-left: 350px;
+  }
+  .Titulo{
+    font-size: 40px;
+  }
+  #NavBarcontainer{
+    width: 20%;
+  }
+  #Foto{
+    width: 150px;
+  }
+}
+@media screen and (min-width:1700px){
+  #MasterContainer{
+    font-size: 20px;
+  }
+  .InfoContainer{
+    font-size: 30px;
+    margin-left: 450px;
+  }
+  .Titulo{
+    font-size: 45px;
+  }
+  #NavBarcontainer{
+    width: 15%;
+  }
+  #Foto{
+    width: 250px;
+  }
+}
+@media screen and (min-width:2100px){
+  #MasterContainer{
+    font-size: 30px;
+  }
 }
