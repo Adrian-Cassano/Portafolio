@@ -39,7 +39,7 @@ const home = () => {
           </div>
         </div>
       </div>
-      <section id="adrianCassano">
+      <section className={styles.Section} id="adrianCassano">
         <div className={styles.InfoContainer}>
           <div className={styles.Titulo}>Adrian Cassano</div>
           <div>Bienvenidos a mi portafolio como desarrollador fronted</div>
@@ -58,7 +58,7 @@ const home = () => {
         </div>
       </section>
       <div className={styles.Barra}>BARRA</div>
-      <section id="sobreMi">
+      <section className={styles.Section} id="sobreMi">
         <div className={styles.InfoContainer}>
           <div className={styles.Titulo}>Sobre Mi</div>
           <div>
@@ -70,7 +70,7 @@ const home = () => {
         </div>
       </section>
       <div className={styles.Barra}>BARRA</div>
-      <section id="portafolio">
+      <section className={styles.Section} id="portafolio">
         <div className={styles.InfoContainer}>
           <div className={styles.Titulo}>Portafolio</div>
           <div>
@@ -79,7 +79,7 @@ const home = () => {
         </div>
       </section>
       <div className={styles.Barra}>BARRA</div>
-      <section id="educacion">
+      <section className={styles.Section} id="educacion">
         <div className={styles.InfoContainer}>
           <div className={styles.Titulo}>Educacion</div>
           <div>

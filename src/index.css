@@ -17,3 +17,6 @@ code {
 /* :root{
   --COLOR_FONDO()
 } */
+html{
+  scroll-behavior: smooth;
+}
