@@ -4,6 +4,7 @@ import fotoperfil from "../../Img/FotoCvChica.png";
 import gitHub from "../../Img/GitHub.png";
 import linkedin from "../../Img/Linkedin.png";
 import whatsapp from "../../Img/WhatsApp.png";
+import email from "../../Img/Mensaje.png"
 
 import PagesCard from "../../components/pagesCard/pagesCard";
 
@@ -54,6 +55,10 @@ const home = () => {
             <a href="https://github.com/Adrian-Cassano/AC-ARG">
               <img src={gitHub} alt="github" />
             </a>
+            <a href="mailto:cassano_adrian@hotmail.com">
+            <img src={email} alt="github" />
+            </a>
+
           </div>
         </div>
       </section>
