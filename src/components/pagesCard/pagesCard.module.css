@@ -1,4 +1,13 @@
 #MasterContainer{
     display: flex;
-    background-color: red;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#Link{
+    border: skyblue solid 5px;
+    text-decoration: none;
+    color: skyblue;
+}
+#Link:hover{
+    background-color: rgb(0, 181, 253);
 }

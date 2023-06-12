@@ -8,7 +8,13 @@ const pagesCard = () => {
   return (
     <div id={styles.MasterContainer}>
       {PAGES?.map((pag) => {
-        return <div>{pag.nombre}</div>;
+        return (
+          <div key={pag.id}>
+            <div id={styles.PagesName}>{pag.nombre}</div>
+            <div id={styles.PagePhoto}>{pag.description}</div>
+            <a id={styles.Link} href={pag.link}>Podes verla ingresado Aqui </a>
+          </div>
+        );
       })}
     </div>
   );
